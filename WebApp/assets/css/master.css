@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  background-color: #44546a;
+}
+
 *, h1, h2, h3, h4, h5, h6{
   font-family: 'Merienda', cursive;
 }
@@ -15,7 +19,7 @@ header{
 }
 
 main{
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 @media only screen and (min-width: 600px) {
