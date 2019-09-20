@@ -3,7 +3,7 @@ html {
 }
 
 body{
-  background-color: #44546a;
+  background-color: #031019;
 }
 
 *, h1, h2, h3, h4, h5, h6{
@@ -12,14 +12,24 @@ body{
 
 header{
   min-height: 100vh;
-  background-image: url("../images/bg.png");
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: contain;
+  background-image: url("../images/bg.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
 }
 
-main{
-  /* min-height: 100vh; */
+.card{
+  background-color: #062a38 !important;
+  color: #1a9ab7 !important;
+}
+
+.card a{
+  color: #26a69a !important;
+}
+
+footer{
+  text-align: right;
+  background-color: #04090d;
+  color: #fff;
 }
 
 @media only screen and (min-width: 600px) {
