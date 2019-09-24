@@ -1,9 +1,18 @@
+:root{
+  --col1: #031019;
+  --col2: #07313d;
+  --col3: #F26419;
+  --col4: #FA991C;
+  --col5: #FF491C;
+  --col6: #04090d;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body{
-  background-color: #031019;
+  background-color: var(--col1);
 }
 
 *, h1, h2, h3, h4, h5, h6{
@@ -18,17 +27,19 @@ header{
 }
 
 .card{
-  background-color: #062a38 !important;
-  color: #1a9ab7 !important;
+  background-color: var(--col2) !important;
+  color: var(--col3) !important;
 }
 
 .card a{
-  color: #26a69a !important;
+  color: var(--col4) !important;
 }
-
+.card a:hover{
+  color: var(--col5) !important;
+}
 footer{
   text-align: right;
-  background-color: #04090d;
+  background-color: var(--col6);
   color: #fff;
 }
 
