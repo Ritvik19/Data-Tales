@@ -1,10 +1,10 @@
 :root{
-  --col1: #031019;
-  --col2: #07313d;
-  --col3: #F26419;
-  --col4: #FA991C;
-  --col5: #FF491C;
-  --col6: #04090d;
+  --c1: #a9d7d1;
+  --c2: rgba(6,54,68, 0.9);
+  --c3: #f2ae72;
+  --c4: #ffcc5c;
+  --c5: #ff6f69;
+  --c6: #FF9900;
 }
 
 html {
@@ -12,39 +12,73 @@ html {
 }
 
 body{
-  background-color: var(--col1);
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 *, h1, h2, h3, h4, h5, h6{
-  font-family: 'Merienda', cursive;
+  font-family: 'ZCOOL XiaoWei', serif;
 }
 
 header{
   min-height: 100vh;
-  background-image: url("../images/bg.jpg");
-  background-repeat: repeat-y;
-  background-size: cover;
+  color: var(--c1);
+}
+
+i{
+  color: var(--c1);
+  font-size: 30px !important;
 }
 
 .card{
-  background-color: var(--col2) !important;
-  color: var(--col3) !important;
+  background-color: var(--c2) !important;
+  color: var(--c6) !important;
+}
+
+button{
+  background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .card a{
-  color: var(--col4) !important;
+  color: var(--c4) !important;
 }
+
 .card a:hover{
-  color: var(--col5) !important;
+  color: var(--c3) !important;
 }
+
+.card-title{
+  color: var(--c5);
+}
+
+.card-content h6{
+  min-height: 35px;
+}
+
 footer{
   text-align: right;
-  background-color: var(--col6);
   color: #fff;
 }
 
-@media only screen and (min-width: 600px) {
-  .jumbotron h5{
-    max-width: 60vw;
-  }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--c2);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--c1);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--c1);
 }
