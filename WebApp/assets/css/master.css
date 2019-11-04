@@ -28,6 +28,12 @@ header{
   color: var(--c1);
 }
 
+.sectionhead{
+  color: var(--c1);
+  text-align: center;
+  text-decoration: underline;
+}
+
 i{
   color: var(--c1);
   font-size: 30px !important;

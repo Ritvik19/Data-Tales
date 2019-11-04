@@ -1,0 +1,29 @@
+{
+  "type": "bar",
+  "data": {
+  "labels": ["ASP.NET", "Angular/Angular.js", "Django", "Drupal", "Express", "Flask", "Laravel", "Other(s):", "React.js", "Ruby on Rails", "Spring", "Vue.js", "jQuery"],
+  "datasets": [{
+      "label": "Worked With",
+      "data": [16699, 19532, 8249, 2195, 12522, 7694, 6679, 5257, 19877, 5225, 10298, 9671, 30981],
+      "backgroundColor": "#aec7e8",
+      "borderColor": "#1f77b4",
+      "borderWidth": 1
+    },
+    {
+      "label": "Desired Next Year",
+      "data": [13495, 19622, 11358, 1538, 12092, 8163, 6536, 4968, 29531, 6632, 9846, 19784, 16918],
+      "backgroundColor": "#ffbb78",
+      "borderColor": "#ff7f0e",
+      "borderWidth": 1
+      }]
+  },
+  "options": {
+    "scales": {
+      "yAxes": [{
+        "ticks": {
+          "beginAtZero": true
+        }
+      }]
+    }
+  }
+}

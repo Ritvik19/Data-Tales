@@ -1,0 +1,22 @@
+{
+  "type": "bar",
+  "data": {
+  "labels": ["Android Studio", "Atom", "Coda", "Eclipse", "Emacs", "IPython / Jupyter", "IntelliJ", "Komodo", "Light Table", "NetBeans", "Notepad++", "PHPStorm", "PyCharm", "RStudio", "RubyMine", "Sublime Text", "TextMate", "Vim", "Visual Studio", "Visual Studio Code", "Xcode", "Zend"],
+  "datasets": [{
+      "label": "Worked With",
+      "data": [14787, 11636, 578, 12591, 3922, 8317, 22166, 368, 178, 5121, 26621, 6645, 11724, 2940, 1202, 20424, 805, 22163, 27490, 44311, 8239, 307],
+      "backgroundColor": "#aec7e8",
+      "borderColor": "#1f77b4",
+      "borderWidth": 1
+    }]
+  },
+  "options": {
+    "scales": {
+      "yAxes": [{
+        "ticks": {
+          "beginAtZero": true
+        }
+      }]
+    }
+  }
+}

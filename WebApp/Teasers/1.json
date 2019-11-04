@@ -1,0 +1,29 @@
+{
+  "type": "bar",
+  "data": {
+  "labels": ["Assembly", "Bash/Shell/PowerShell", "C", "C#", "C++", "Clojure", "Dart", "Elixir", "Erlang", "F#", "Go", "HTML/CSS", "Java", "JavaScript", "Kotlin", "Objective-C", "Other(s):", "PHP", "Python", "R", "Ruby", "Rust", "SQL", "Scala", "Swift", "TypeScript", "VBA", "WebAssembly"],
+  "datasets": [{
+      "label": "Worked With",
+      "data": [5833, 31991, 18017, 27097, 20524, 1254, 1683, 1260, 777, 973, 7201, 55466, 35917, 59219, 5620, 4191, 7920, 23030, 36443, 5048, 7331, 2794, 47544, 3309, 5744, 18523, 4781, 1015],
+      "backgroundColor": "#aec7e8",
+      "borderColor": "#1f77b4",
+      "borderWidth": 1
+    },
+    {
+      "label": "Desired Next Year",
+      "data": [4659, 21303, 11143, 22449, 16856, 2752, 4429, 3788, 2124, 3521, 17060, 36645, 23508, 44739, 13261, 2851, 7912, 12837, 40006, 6734, 7251, 10497, 33566, 5562, 8800, 23720, 1641, 8440],
+      "backgroundColor": "#ffbb78",
+      "borderColor": "#ff7f0e",
+      "borderWidth": 1
+      }]
+  },
+  "options": {
+    "scales": {
+      "yAxes": [{
+        "ticks": {
+          "beginAtZero": true
+        }
+      }]
+    }
+  }
+}

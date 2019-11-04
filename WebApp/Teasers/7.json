@@ -1,0 +1,22 @@
+{
+  "type": "bar",
+  "data": {
+  "labels": ["BSD", "Linux-based", "MacOS", "Windows"],
+  "datasets": [{
+      "label": "Worked With",
+      "data": [124, 22472, 23541, 41714],
+      "backgroundColor": "#aec7e8",
+      "borderColor": "#1f77b4",
+      "borderWidth": 1
+    }]
+  },
+  "options": {
+    "scales": {
+      "yAxes": [{
+        "ticks": {
+          "beginAtZero": true
+        }
+      }]
+    }
+  }
+}

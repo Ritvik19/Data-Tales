@@ -1,0 +1,29 @@
+{
+  "type": "bar",
+  "data": {
+  "labels": ["Cassandra", "Couchbase", "DynamoDB", "Elasticsearch", "Firebase", "MariaDB", "Microsoft SQL Server", "MongoDB", "MySQL", "Oracle", "Other(s):", "PostgreSQL", "Redis", "SQLite"],
+  "datasets": [{
+      "label": "Worked With",
+      "data": [2597, 1517, 4629, 10720, 9612, 12401, 24590, 19100, 40537, 12353, 5059, 25758, 13971, 23713],
+      "backgroundColor": "#aec7e8",
+      "borderColor": "#1f77b4",
+      "borderWidth": 1
+    },
+    {
+      "label": "Desired Next Year",
+      "data": [6056, 2469, 6126, 15440, 11921, 9986, 16225, 23667, 25750, 7299, 4516, 26446, 17913, 17807],
+      "backgroundColor": "#ffbb78",
+      "borderColor": "#ff7f0e",
+      "borderWidth": 1
+      }]
+  },
+  "options": {
+    "scales": {
+      "yAxes": [{
+        "ticks": {
+          "beginAtZero": true
+        }
+      }]
+    }
+  }
+}

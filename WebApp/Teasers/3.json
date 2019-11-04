@@ -1,0 +1,29 @@
+{
+  "type": "bar",
+  "data": {
+  "labels": ["AWS", "Android", "Arduino", "Docker", "Google Cloud Platform", "Heroku", "IBM Cloud or Watson", "Kubernetes", "Linux", "MacOS", "Microsoft Azure", "Other(s):", "Raspberry Pi", "Slack", "Windows", "WordPress", "iOS"],
+  "datasets": [{
+      "label": "Worked With",
+      "data": [21304, 21639, 8543, 25212, 9928, 8527, 1514, 6835, 42753, 17806, 9528, 2852, 12183, 16723, 40630, 11595, 10446],
+      "backgroundColor": "#aec7e8",
+      "borderColor": "#1f77b4",
+      "borderWidth": 1
+    },
+    {
+      "label": "Desired Next Year",
+      "data": [26298, 24749, 11143, 32963, 15916, 7526, 2937, 17793, 42178, 17433, 11898, 2641, 17768, 13548, 28215, 6586, 14494],
+      "backgroundColor": "#ffbb78",
+      "borderColor": "#ff7f0e",
+      "borderWidth": 1
+      }]
+  },
+  "options": {
+    "scales": {
+      "yAxes": [{
+        "ticks": {
+          "beginAtZero": true
+        }
+      }]
+    }
+  }
+}

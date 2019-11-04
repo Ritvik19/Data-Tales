@@ -1,0 +1,29 @@
+{
+  "type": "bar",
+  "data": {
+  "labels": [".NET", ".NET Core", "Ansible", "Apache Spark", "Chef", "Cordova", "CryEngine", "Flutter", "Hadoop", "Node.js", "Other(s):", "Pandas", "Puppet", "React Native", "TensorFlow", "Torch/PyTorch", "Unity 3D", "Unreal Engine", "Xamarin"],
+  "datasets": [{
+      "label": "Worked With",
+      "data": [21889, 13875, 5504, 3394, 1476, 4147, 344, 2010, 2856, 29207, 2776, 7447, 1557, 6133, 6009, 1922, 6627, 2055, 3810],
+      "backgroundColor": "#aec7e8",
+      "borderColor": "#1f77b4",
+      "borderWidth": 1
+    },
+    {
+      "label": "Desired Next Year",
+      "data": [15833, 17077, 6480, 6647, 2154, 2981, 1179, 7307, 6261, 31417, 3040, 8885, 2217, 14601, 17904, 6382, 11131, 6387, 6001],
+      "backgroundColor": "#ffbb78",
+      "borderColor": "#ff7f0e",
+      "borderWidth": 1
+      }]
+  },
+  "options": {
+    "scales": {
+      "yAxes": [{
+        "ticks": {
+          "beginAtZero": true
+        }
+      }]
+    }
+  }
+}
