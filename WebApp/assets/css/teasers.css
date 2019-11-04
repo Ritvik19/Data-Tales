@@ -1,0 +1,41 @@
+.nav-wrapper{
+  background-color: rgb(6,54,68);
+}
+
+#mobile-demo{
+  background-color: rgb(6,54,68);
+}
+
+#mobile-demo li{
+  height: 180px !important;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+#mobile-demo h5, #mobile-demo h6{
+  color: #fff;
+}
+
+.back{
+  text-indent: 32px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(6,54,68);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(6,54,68);
+}

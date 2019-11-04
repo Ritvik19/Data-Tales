@@ -12,3 +12,15 @@ xhttp.onreadystatechange = function() {
 };
 xhttp.open("GET", filepath, true);
 xhttp.send();
+
+
+$(document).ready(function(){
+  $('.sidenav').sidenav();
+});
+
+mob = document.getElementById('mobile-demo');
+teasers = document.getElementById('teasers');
+for(i=0; i< headings.length; i++){
+  mob.innerHTML += '<li><a href="/Teasers/?q='+(i+1)+'"> <h5>'+headings[i]+'</h5><h6>'+descriptions[i]+'</h6> </a></li>'
+  teasers.innerHTML += '<li class="collection-item"><a href="/Teasers/?q='+(i+1)+'"> <h5>'+headings[i]+'</h5><h6>'+descriptions[i]+'</h6> </a></li>'
+}
