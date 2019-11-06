@@ -1,29 +1,14 @@
-@media only screen and (max-width: 768px){
-  #teasers, #pc-demo{
-    display: hidden !important;
-  }
-}
-
 .nav-wrapper{
   background-color: rgb(6,54,68);
 }
 
-#mobile-demo{
-  background-color: rgb(6,54,68);
+*, h1, h2, h3, h4, h5, h6{
+  font-family: 'ZCOOL XiaoWei', serif;
 }
 
-#mobile-demo li{
-  height: 180px !important;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-}
-
-#mobile-demo h5, #mobile-demo h6{
-  color: #fff;
-}
-
-.back{
-  text-indent: 32px;
+#teasers{
+  max-height: 480px;
+  overflow-y: scroll;
 }
 
 /* width */
