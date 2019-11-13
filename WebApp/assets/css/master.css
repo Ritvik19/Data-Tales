@@ -1,90 +1,108 @@
-:root{
-  --c1: #a9d7d1;
-  --c2: rgba(6,54,68, 0.9);
-  --c3: #f2ae72;
-  --c4: #ffcc5c;
-  --c5: #ff6f69;
-  --c6: #FF9900;
+:root {
+    --c1: #a9d7d1;
+    --c2: rgba(6, 54, 68, 0.9);
+    --c3: #f2ae72;
+    --c4: #ffcc5c;
+    --c5: #ff6f69;
+    --c6: #FF9900;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
-body{
-  background-image: url("../images/bg.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+body {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-*, h1, h2, h3, h4, h5, h6{
-  font-family: 'ZCOOL XiaoWei', serif;
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'ZCOOL XiaoWei', serif;
 }
 
-header{
-  min-height: 100vh;
-  color: var(--c1);
+header {
+    min-height: 100vh;
+    color: var(--c1);
 }
 
-.sectionhead{
-  color: var(--c1);
-  text-align: center;
-  text-decoration: underline;
+.sectionhead {
+    color: var(--c1);
+    text-align: center;
+    text-decoration: underline;
 }
 
-i{
-  color: var(--c1);
-  font-size: 30px !important;
+i {
+    color: var(--c1);
+    font-size: 30px !important;
 }
 
-.card{
-  background-color: var(--c2) !important;
-  color: var(--c6) !important;
+.card {
+    background-color: var(--c2) !important;
+    color: var(--c6) !important;
 }
 
-button{
-  background-color: rgba(0, 0, 0, 0.5) !important;
+button {
+    background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
-.card a{
-  color: var(--c4) !important;
+.card a {
+    color: var(--c4) !important;
 }
 
-.card a:hover{
-  color: var(--c3) !important;
+.card a:hover {
+    color: var(--c3) !important;
 }
 
-.card-title{
-  color: var(--c5);
+.card-title {
+    color: var(--c5);
 }
 
-.card-content h6{
-  min-height: 35px;
+.card-content h6 {
+    min-height: 35px;
 }
 
-footer{
-  text-align: right;
-  color: #fff;
+.col {
+    height: 270px;
 }
+
+footer {
+    text-align: right;
+    color: #fff;
+}
+
 
 /* width */
+
 ::-webkit-scrollbar {
-  width: 10px;
+    width: 10px;
 }
+
 
 /* Track */
+
 ::-webkit-scrollbar-track {
-  background: var(--c2);
+    background: var(--c2);
 }
+
 
 /* Handle */
+
 ::-webkit-scrollbar-thumb {
-  background: var(--c1);
+    background: var(--c1);
 }
 
+
 /* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--c1);
+    background: var(--c1);
 }
