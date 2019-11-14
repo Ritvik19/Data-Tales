@@ -37,7 +37,11 @@ header {
 .sectionhead {
     color: var(--c1);
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+}
+
+.sectionhead:hover {
+    color: var(--c3);
 }
 
 i {

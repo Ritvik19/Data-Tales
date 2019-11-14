@@ -12,35 +12,54 @@ h6 {
     font-family: 'ZCOOL XiaoWei', serif;
 }
 
+.w3-col {
+    height: 270px;
+}
+
+.w3-col .card-action a:hover {
+    color: #23395B !important;
+}
+
+.w3-col .card-action a {
+    display: block;
+    color: #36ACB5 !important;
+}
+
 #teasers {
-    max-height: 480px;
+    max-height: 75vh;
     overflow-y: scroll;
-    /* border: 2px solid rgba(6, 54, 68, 0.9); */
+}
+
+.collection-item a {
+    color: #36ACB5;
+}
+
+.collection-item a:hover {
+    color: #23395B;
+}
+
+.active {
+    background-color: #fff !important;
+}
+
+.active a {
+    color: #23395B;
 }
 
 
-/* width */
+/* scrollbar */
 
 ::-webkit-scrollbar {
     width: 10px;
 }
 
-
-/* Track */
-
 ::-webkit-scrollbar-track {
     background: #fff;
 }
 
-
-/* Handle */
-
 ::-webkit-scrollbar-thumb {
     background: rgb(6, 54, 68);
 }
-
-
-/* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(6, 54, 68);
