@@ -46,6 +46,9 @@ h6 {
     color: #23395B;
 }
 
+iframe, #plot{
+    height: 700px !important;
+}
 
 /* scrollbar */
 

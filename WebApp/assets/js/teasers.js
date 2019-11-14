@@ -50,7 +50,7 @@ if (q == null) {
 
     if (q.charAt(0) == 'm') {
         filepath = '/Teasers/' + q + '.html'
-        document.getElementById('plot').innerHTML += '<iframe width="100%"  height="500px" src="' +
+        document.getElementById('plot').innerHTML += '<iframe width="100%"  height="700px" src="' +
             filepath + '" style="border: none"></iframe>';
         document.getElementById('title').innerHTML = headings2[q.substring(1) - 1];
         document.getElementById('description').innerHTML = descriptions2[q.substring(1) - 1];
