@@ -5,7 +5,8 @@ headings = [
     'Most Popular Web FrameWork',
     'Most Popular Technologies',
     'Most Popular Development Environment',
-    'Most Popular Operating System Among Programmers'
+    'Most Popular Operating System Among Programmers',
+    'Global Emission of Green House Gases<br>1751-2017'
 ]
 descriptions = [
     'Stack Overflow Developer Survey 2019',
@@ -14,7 +15,8 @@ descriptions = [
     'Stack Overflow Developer Survey 2019',
     'Stack Overflow Developer Survey 2019',
     'Stack Overflow Developer Survey 2019',
-    'Stack Overflow Developer Survey 2019'
+    'Stack Overflow Developer Survey 2019',
+    ''
 ]
 headings2 = [
     'Members of European Union',
