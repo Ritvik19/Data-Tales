@@ -23,9 +23,13 @@ headings2 = [
     'Members of the Commonwealth',
     'Nations with Union Jack on their flags',
     'Nations not Invaded by Britain',
-    'Global Emission of Green House Gases 2017'
+    'Global Emission of Green House Gases 2017',
+    'Population Desity (2017)',
+    'Literacy Rate (2017)'
 ]
 descriptions2 = [
+    '',
+    '',
     '',
     '',
     '',
