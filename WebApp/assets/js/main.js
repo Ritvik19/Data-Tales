@@ -15,20 +15,16 @@ $(document).ready(function() {
     });
 });
 
-main = document.getElementsByTagName("main")[0];
+main = document.getElementsByTagName("main")[1].getElementsByTagName("div")[0];
 
 function createContent(heading, description, i, m) {
-    content = '<div class="col s12 m4">' + "\n";
-    content += '<div class="card">' + "\n";
-    content += '<div class="card-content">' + "\n";
-    content += '<span class="card-title"><h5>' + heading + "</h5></span>" + "\n";
+    content = ""
+    content += '<div class="w3-card w3-padding-large card">' + "\n";
+    content += '<h5>' + heading + "</h5>" + "\n";
     content += "<h6>" + description + "</h6>" + "\n";
-    content += "</div>" + "\n";
-    content += '<div class="card-action">' + "\n";
+    content += "<hr>" + "\n";
     content +=
         '<a href="/Teasers/?q=' + m + (i + 1) + '" target="_blank">View</a>' + "\n";
-    content += "</div>" + "\n";
-    content += "</div>" + "\n";
     content += "</div>" + "\n";
     return content;
 }

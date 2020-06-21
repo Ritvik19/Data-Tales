@@ -1,61 +1,64 @@
-:root {
-    --c1: #222831;
-    --c2: rgba(6, 54, 68, 0.9);
-    --c3: #393e46;
-    --c4: #29a19c;
-    --c5: #6ba8a9;
-    --c6: #36acb5;
-    --c7: #bae8e8;
-}
-
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: var(--c1);
+    background-image: url('/assets/images/bg.jpg') !important;
+    background-size: cover;
 }
 
-*,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "ZCOOL XiaoWei", serif;
-    color: var(--c4);
+main {
+    background-image: url('/assets/images/bg.jpg') !important;
+    background-size: cover;
 }
 
-.sectionhead {
-    text-align: center;
+main div {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
-a {
-    color: var(--c4) !important;
+header,
+section,
+footer {
+    background-image: url('/assets/images/bg.png') !important;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-a:hover {
-    color: var(--c6) !important;
+header {
+    height: 100vh;
 }
 
-.card {
-    background-color: var(--c3);
-    color: var(--c5);
-}
-
-.card-content h6 {
-    min-height: 35px;
-    color: var(--c7);
-}
-
-.col {
-    height: 270px;
+section {
+    height: 80vh;
 }
 
 footer {
-    text-align: right;
-    color: #fff;
+    height: 40vh;
+}
+
+header>div,
+section>div,
+footer>div {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+footer>div>div {
+    left: 80% !important;
 }
 
 
@@ -66,13 +69,13 @@ footer {
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--c3);
+    background: #f2f2f2;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--c4);
+    background: #acceec;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--c4);
+    background: #acceec;
 }
